@@ -1,0 +1,90 @@
+header {
+	background-color: #000;
+	height:60px;
+}
+
+header a {
+	font-size: 1.2em;
+	color: #FFF;
+}
+
+.row {
+
+	margin: 0;
+	max-width: none; 
+}
+
+header .header-text {
+
+	float:left;
+	margin:15px;
+}
+
+header .header-tools {
+
+	float: right;
+	margin: 15px;
+}
+
+.dashboard {
+	background: #3D3D3D;
+	height: 700px;
+}
+
+
+
+nav ul {
+	min-height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.ul-block {
+	margin-top: 50px; 
+}
+
+nav li {
+	display: inline-block;
+	list-style: none;
+	margin-left:30px; 
+	margin-top: 12px; 
+	
+}
+
+nav .li-block {
+
+	border-bottom: solid #585858 1px;
+	margin-top:10px;
+	min-height: 50px;
+}
+
+nav li a {
+
+	color: #FFF;
+	text-decoration: none;
+	font-size: 0.9em;
+}
+
+nav .active {
+
+	background: #E01824;
+
+}
+
+
+
+.block2 {
+	height: 300px;
+	width: 100%;
+	margin: 15px;
+	background-color: #EDEDED;
+}
+.block2 ul { list-style-type: none; margin: 0; padding: 0; margin-bottom: 10px; }
+.block2 li { margin: 20px; padding: 5px; width: 150px; }
+
+#droppable {
+
+	width:150px;
+	height: 150px;
+	background: red;
+}
